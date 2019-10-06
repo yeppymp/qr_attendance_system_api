@@ -1,6 +1,6 @@
 package models
 
-import "./response"
+import "main.go/models/response"
 
 // Schedule class
 type Schedule struct {

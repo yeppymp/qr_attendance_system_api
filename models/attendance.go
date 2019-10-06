@@ -1,6 +1,8 @@
 package models
 
-import "../models/response"
+import (
+	"main.go/models/response"
+)
 
 // Attendance class
 type Attendance struct {

@@ -1,6 +1,6 @@
 package app
 
-import "../db"
+import "main.go/db"
 
 // App struct
 type App struct {

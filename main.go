@@ -1,12 +1,12 @@
 package main
 
 import (
-	"./api"
-	"./app"
 	"github.com/gorilla/handlers"
 	"github.com/gorilla/mux"
 	"github.com/sirupsen/logrus"
 	"github.com/spf13/viper"
+	"main.go/api"
+	"main.go/app"
 	"net/http"
 	"strconv"
 	"time"

@@ -1,11 +1,11 @@
 package api
 
 import (
-	"../models"
-	"../util"
 	"encoding/json"
 	"github.com/gorilla/mux"
 	"io/ioutil"
+	"main.go/models"
+	"main.go/util"
 	"net/http"
 	"strings"
 )

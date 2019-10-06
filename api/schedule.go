@@ -1,9 +1,9 @@
 package api
 
 import (
-	"../models"
-	"../util"
 	"github.com/gorilla/mux"
+	"main.go/models"
+	"main.go/util"
 	"net/http"
 )
 

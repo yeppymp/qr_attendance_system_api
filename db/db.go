@@ -1,13 +1,13 @@
 package db
 
 import (
-	"../api"
-	"../models"
 	"github.com/jinzhu/gorm"
 	_ "github.com/jinzhu/gorm/dialects/mysql" // mysql driver
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"
 	"github.com/spf13/viper"
+	"main.go/api"
+	"main.go/models"
 )
 
 // Database struct
